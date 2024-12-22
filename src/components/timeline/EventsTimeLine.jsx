@@ -16,6 +16,7 @@ function EventsTimeLine() {
   const [text8, setText8] = useState("");
   const [text9, setText9] = useState("");
   const [text10, setText10] = useState("");
+  const [text11, setText11] = useState("");
   const valueRef = useRef(null);
   const valueRef2 = useRef(null);
   const valueRef3 = useRef(null);
@@ -26,6 +27,8 @@ function EventsTimeLine() {
   const valueRef8 = useRef(null);
   const valueRef9 = useRef(null);
   const valueRef10 = useRef(null);
+  const valueRef11 = useRef(null);
+
 
   function handleChange() {
     let value = valueRef.current.value;
@@ -51,7 +54,7 @@ function EventsTimeLine() {
     let value3 = valueRef3.current.value;
     console.log(value3);
     setText3(value3);
-    if (text3 == "man co") {
+    if (text3 == "man cod") {
       setText3("");
       console.log(value3 + "  i am gere ");
       window.location.href = "/#/cyberOday";
@@ -101,7 +104,7 @@ function EventsTimeLine() {
     let value8 = valueRef8.current.value;
     console.log(value8);
     setText8(value8);
-    if (text8 == "man cod") {
+    if (text8 == "man cod2") {
       setText8("");
       console.log(value8 + "  i am gere ");
       window.location.href = "/#/cyberOday2";
@@ -126,6 +129,16 @@ function EventsTimeLine() {
       setText10("");
       console.log(value10 + "  i am gere ");
       window.location.href = "/#/fossit2024";
+    }
+  }
+  function handleChange11() {
+    let value11 = valueRef11.current.value;
+    console.log(value11);
+    setText11(value11);
+    if (text11 == "man cod3") {
+      setText11("");
+      console.log(value11 + "  i am gere ");
+      window.location.href = "/#/cyberOday3";
     }
   }
 
@@ -664,7 +677,7 @@ function EventsTimeLine() {
                   Read more here...
                 </NavLink>
                 <br />
-                or Type 'man co' to use our CLI|
+                or Type 'man cod' to use our CLI|
                 <pre>
                   $~:{" "}
                   <input
@@ -749,6 +762,64 @@ function EventsTimeLine() {
           </div>
 
           {/* <!-- left --> */}
+          <div class="flex flex-row-reverse md:contents">
+            <div class="bg-transparent  text-white  col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+              <EventTerminal
+                title="lug:~$cli-v.0.0.1x"
+                children="coiacascasuin"
+              >
+                <p>
+                  <b className="text-blue-gray-600">lug@vitc:~/events$ </b>{" "}
+                  <b className="text-light-green-300">sudo cyber-o-day3 </b>
+                </p>
+                {/* <br />   */}
+                <p>
+                  <b className="text-blue-gray-600">
+                    [sudo] password for lugvitc:
+                  </b>{" "}
+                  <b className="text-light-green-300"></b>
+                </p>
+                <p>
+                  <b className="text-blue-gray-600">
+                    [root@lugvitc superuser]#
+                  </b>{" "}
+                  <b className="text-light-green-300">cat cod3.sh </b>
+                </p>
+                <p>
+                  Cyber-0-Day 3.0, occurring at the cusp of the Techno-VIT festival, 
+                  pitted our cleverest minds against our cleverest puzzles and each other.
+                  The competition was visceral, and the lessons learnt were phenomenal.
+                </p>
+                <br />
+                <NavLink
+                  className="text-light-green-300 underline "
+                  to={paths.cyberOday3}
+                >
+                  Read more here...
+                </NavLink>
+                <br />
+                or Type 'man cod3' to use our CLI|
+                <pre>
+                  $~:{" "}
+                  <input
+                    ref={valueRef11}
+                    type="text"
+                    name=""
+                    id="command"
+                    className="bg-transparent outline-none"
+                    onChange={handleChange3}
+                  />{" "}
+                </pre>
+              </EventTerminal>
+            </div>
+
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-[#fff] pointer-events-none"></div>
+              </div>
+              <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-[#fff]   shadow"></div>
+            </div>
+          </div>
 
           <div class="flex flex-row-reverse md:contents">
             <div class="bg-transparent  text-white  col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">

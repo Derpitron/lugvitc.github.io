@@ -4,11 +4,11 @@ import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import i1 from "../../../../images/events/cyber-0-day-2/1.jpg";
-import i2 from "../../../../images/events/cyber-0-day-2/2.jpg";
-import i3 from "../../../../images/events/cyber-0-day-2/3.jpg";
-import i4 from "../../../../images/events/cyber-0-day-2/4.jpg";
-import i5 from "../../../../images/events/cyber-0-day-2/5.jpg";
+import i1 from "../../../../images/events/cyber-0-day-3/1.jpg";
+import i2 from "../../../../images/events/cyber-0-day-3/2.jpg";
+import i3 from "../../../../images/events/cyber-0-day-3/3.jpg";
+import i4 from "../../../../images/events/cyber-0-day-3/4.jpg";
+import i5 from "../../../../images/events/cyber-0-day-3/5.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,7 +18,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { apiURL } from "../../../../utils/constant";
 
-function Cod2() {
+function Cod3() {
   useEffect(() => {
     // Scroll to the top when the component mounts
     window.scrollTo(0, 0);
@@ -29,14 +29,13 @@ function Cod2() {
       <div className="bg-transparent font-space">
         <div className="text-gray-300 container  mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12">
           <p className="font-space text-4xl font-bold text-gray-200 max-w-5xl lg:text-7xl lg:pr-24 md:text-6xl">
-            Cyber-0-Day 2.0
+            Cyber-0-Day 3.0
           </p>
           <div className="h-10"></div>
           <p className="max-w-2xl font-space text-xl text-gray-400 md:text-2xl">
-            Cyber-0-Day 2.0, the pinnacle event of Technovit, embarked our
-            future hackers on an enthralling journey deep into the realms of
-            cybersecurity. Staged at the majestic Netaji Auditorium, this
-            24-hour tech marathon was nothing short of perfection.
+            Cyber-0-Day 3.0, occurring at the cusp of the Techno-VIT festival, 
+            pitted our cleverest minds against our cleverest puzzles and each other.
+            The competition was visceral, and the lessons learnt were phenomenal.
           </p>
 
           <div className="h-12 md:h-24"></div>
@@ -44,14 +43,14 @@ function Cod2() {
           <div className="grid gap-8 md:grid-cols-2">
             <div className="flex flex-col justify-center">
               <p className="self-start inline font-space text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600">
-                Linux workshop led by the club's Members
+                Linux and cyber-security basics workshop led by the club's members
               </p>
               {/* <h2 className="text-4xl font-bold">.</h2> */}
               <div className="h-6"></div>
               <p className=" text-2xl text-gray-400 md:pr-10">
-                The event unfolded with a knowledge-packed workshop encompassing
-                crucial subjects: Linux fundamentals, OSINT reconnaissance, Web
-                exploitation, cryptography, and Binary exploitation.
+                Our Event kicked off with a series of presentations by our club's members as 
+                introductions to the pertinent subjects of Linux mastery, web exploitation, 
+                binary exploitation, and file forensics.
               </p>
               <div className="h-8"></div>
               <div className="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
@@ -71,7 +70,7 @@ function Cod2() {
               {/* <div className="-mr-2 rounded-lg md:rounded-l-full h-96 ">
                 <video className=" rounded-lg w-30 h-96" controls autoPlay>
                   <source
-                    src={`${apiURL}/event/videos/cod2`}
+                    src={`${apiURL}/event/videos/cod3`}
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -177,7 +176,7 @@ function Cod2() {
               <div className="grid gap-4 mx-4 sm:grid-cols-12">
                 <div className="col-span-12 sm:col-span-3">
                   <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-violet-400">
-                    <h5 className="text-2xl font-semibold">Cyber-O-Day 2.0</h5>
+                    <h5 className="text-2xl font-semibold">Cyber-O-Day 3.0</h5>
                     <span className="text-sm font-bold tracki uppercase text-white">
                       Event Details
                     </span>
@@ -188,16 +187,17 @@ function Cod2() {
                     <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-violet-400">
                       {/* <h3 className="text-xl font-semibold tracki">Day 1 </h3> */}
                       <time className="text-xs tracki uppercase text-white">
-                        {/* 24th to the 25th of September */}
+                        {/* 17th to the 18th of September */}
                       </time>
                       <p className="mt-3">
                         Participants actively engaged in interactive sessions,
                         delving into hands-on activities while our tech team
                         provided guidance and support. Following the workshop,
-                        participants faced a rigorous quiz assessing their
-                        comprehension of the workshop's intricacies. The top 20
-                        teams, showcasing their prowess, progressed to the final
-                        Capture The Flag (CTF) round, a pulse-pounding
+                        participants tested their experience against a battery of
+                        our finest technical challenges across a wide range of subjects
+                        such as Binary exploitation, file forensics, web exploitation, and
+                        cryptography. The top 20 teams, showcasing their prowess, progressed 
+                        to the final Capture The Flag (CTF) round, a pulse-pounding
                         competition meticulously crafted by our expert backend
                         team to push participants to their limits.
                       </p>
@@ -206,6 +206,7 @@ function Cod2() {
                       {/* <h3 className="text-xl font-semibold tracki">Day 2</h3> */}
                       <time className="text-xs tracki uppercase text-white"></time>
                       <p className="mt-3">
+                        {/*TODO: update this description*/}
                         From the intense CTF round, the top 10 teams advanced to
                         the Treasure Hunt, navigating a complex maze of clues
                         and challenges. Ultimately, three teams emerged as
@@ -235,4 +236,4 @@ function Cod2() {
   );
 }
 
-export default Cod2;
+export default Cod3;
