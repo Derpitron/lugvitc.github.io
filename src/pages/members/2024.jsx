@@ -56,11 +56,11 @@ export const members_2024 = [
   {
     id: 7,
     name: "Shyam Sundar R",
-    position: "Treasurer",
+    position: "Treasurer, Head of Club Proceedings",
     github: "#",
-    linkedin: "#",
-    instagram: "#",
-    email: "#",
+    linkedin: "http://www.linkedin.com/in/shyamsundar-r",
+    instagram: "https://www.instagram.com/__shyam.sundar__/profilecard/?igsh=MWp4bHJqbnFqZWppYw==",
+    email: "ssr83432@gmail.com",
   },
   {
     id: 8,
@@ -71,9 +71,10 @@ export const members_2024 = [
     instagram: "https://instagram.com/lugvitc",
     email: "mailto:cclinuxclub@vit.ac.in",
   },
+  //TODO: add&update details for Mogesh bhaiya, Riya didi
   {
-    id: 8,
-    name: "Vivek Chaudhary",
+    id: 9,
+    name: "",
     position: "Management Lead",
     github: "https://github.com/Vivek084c",
     linkedin: "https://www.linkedin.com/in/vivek-chaudhary-8243a9250/",
@@ -81,7 +82,7 @@ export const members_2024 = [
     email: "mailto:cclinuxclub@vit.ac.in",
   },
   {
-    id: 8,
+    id: 10,
     name: "Vivek Chaudhary",
     position: "Management Lead",
     github: "https://github.com/Vivek084c",

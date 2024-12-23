@@ -33,6 +33,7 @@ import siya from "../../images/members/siya.jpeg";
 import keerthana from "../../images/members/keerthana.jpeg";
 
 function Member() {
+  //TODO: Why are some entries blank. Can they be replaced or are they for padding/placeholder
   const img2024 = [
     blank,
     ojass,
@@ -43,7 +44,9 @@ function Member() {
     keerthana,
     blank,
     blank,
-    // mogesh,
+    mogesh,
+    riya,
+    shyam
   ];
   const img2023 = [
     blank,
