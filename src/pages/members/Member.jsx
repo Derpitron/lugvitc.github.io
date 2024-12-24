@@ -22,7 +22,7 @@ import dhruv from "../../images/members/dhruv.png";
 import meetesh from "../../images/members/meetesh.png";
 import hrishikesh from "../../images/members/hrishikesh.png";
 import kathir from "../../images/members/kathir.png";
-import mogesh from "../../images/members/mogesh.png";
+import mogesh from "../../images/members/mogesh.jpeg";
 import srideep from "../../images/members/srideep.png";
 import revanth from "../../images/members/revanth.png";
 import chitranshu from "../../images/members/chitranshu.png";
@@ -31,6 +31,8 @@ import shaina from "../../images/members/shaina.jpeg";
 import yeyati from "../../images/members/yeyati.jpg";
 import siya from "../../images/members/siya.jpeg";
 import keerthana from "../../images/members/keerthana.jpeg";
+import riya from "../../images/members/riya.jpeg"
+import ssr from "../../images/members/ssr.jpg"
 
 function Member() {
   //TODO: Why are some entries blank. Can they be replaced or are they for padding/placeholder
@@ -46,7 +48,7 @@ function Member() {
     blank,
     mogesh,
     riya,
-    shyam
+    ssr
   ];
   const img2023 = [
     blank,

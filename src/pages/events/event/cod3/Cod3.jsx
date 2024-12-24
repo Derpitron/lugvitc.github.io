@@ -4,11 +4,12 @@ import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import i1 from "../../../../images/events/cyber-0-day-3/1.jpg";
-import i2 from "../../../../images/events/cyber-0-day-3/2.jpg";
-import i3 from "../../../../images/events/cyber-0-day-3/3.jpg";
-import i4 from "../../../../images/events/cyber-0-day-3/4.jpg";
-import i5 from "../../../../images/events/cyber-0-day-3/5.jpg";
+//TODO: Update these images to c0d3
+import i1 from "../../../../images/events/cyber-0-day-2/1.jpg";
+import i2 from "../../../../images/events/cyber-0-day-2/2.jpg";
+import i3 from "../../../../images/events/cyber-0-day-2/3.jpg";
+import i4 from "../../../../images/events/cyber-0-day-2/4.jpg";
+import i5 from "../../../../images/events/cyber-0-day-2/5.jpg";
 
 // Import Swiper styles
 import "swiper/css";
